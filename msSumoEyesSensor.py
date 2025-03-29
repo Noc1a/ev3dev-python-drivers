@@ -3,8 +3,6 @@ from ev3dev2.port import LegoPort
 from ev3dev2 import get_current_platform
 from time import sleep
 import sys
-from ev3dev2 import get_current_platform
-
 
 class MsSumoEyesSensor(Sensor):
     # Settings for the setRange method
